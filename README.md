@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-html5-css3-and-flexbox-TLrMQc1lf)
-- Live Site URL: [Add live site URL here](https://bahadurshax-nft-preview.netlify.app/)
+- Solution URL: https://www.frontendmentor.io/solutions/nft-preview-card-component-using-html5-css3-and-flexbox-TLrMQc1lf
+- Live Site URL: https://bahadurshax-nft-preview.netlify.app/
 
 ## My process
 
