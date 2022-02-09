@@ -18,7 +18,7 @@
   width: 325px;
   border-radius: 10px;
   background-color: hsl(216, 50%, 16%);
-  margin: 50px auto;
+  margin: 5rem auto;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -34,6 +34,7 @@
 .title {
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+  font-size: 20px;
 }
 .title:hover {
   color: hsl(178, 100%, 50%) ;
