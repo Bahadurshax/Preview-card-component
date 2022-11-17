@@ -10,48 +10,58 @@
 		<title>Frontend Mentor | NFT preview card component</title>
 
 		<link rel="stylesheet" href="style.css" />
+
+		<!-- Google Fonts - Outfit -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet" />
 	</head>
+
 	<body>
 
 		<main>
 			<div class="card">
-				<div class="item-box">
-					<span class="item-hover">
-						<span class="item-overlay">
-							<img class="inner" src="images/icon-view.svg" alt="item" />
-						</span>
-					</span>
+				<div class="container cursor-pointer">
 					<img src="images/image-equilibrium.jpg" alt="img" class="card-img" />
+					<div class="overlay d-flex">
+						<img src="images/icon-view.svg" alt="icon-view">
+					</div>
 				</div>
+				<!-- /.container -->
 				<div class="card-body">
-					<h1 class="title">Equilibrium #3429</h1>
-					<p class="text">Our Equilibrium collection promotes balance and calm.</p>
-					<ul class="list">
-						<li class="item">
-							<img src="images/icon-ethereum.svg" alt="item_img" />
-							<span class="item-text">0.041 ETH</span>
-						</li>
-						<li class="item">
-							<img src="images/icon-clock.svg" alt="item_img" />
-							<span style="color: hsl(215, 51%, 70%)">3 days left</span>
-						</li>
-					</ul>
+					<h1 class="card-title text-white cursor-pointer">Equilibrium #3429</h1>
+					<p class="card-text text-soft-blue ">Our Equilibrium collection promotes balance and calm.</p>
+					<div class="items d-flex">
+						<p class="text-cyan">
+							<img src="images/icon-ethereum.svg" alt="icon" />
+							<span>0.041 ETH</span>
+						</p>
+						<p class="text-soft-blue">
+							<img src="images/icon-clock.svg" alt="icon" />
+							<span>3 days left</span>
+						</p>
+					</div>
+					<!-- /.items -->
 				</div>
-				<div class="card-footer">
-					<img src="images/image-avatar.png" alt="avatar" class="a-img" />
-					<p class="text">Creation of <span class="name">Jules Wyvern</span></p>
+				<!-- /.card-body -->
+				<div class="card-footer d-flex">
+					<img src="images/image-avatar.png" alt="avatar" class="avatar-img" />
+					<p class="text-soft-blue">Creation of <span class="text-white cursor-pointer">Jules Wyvern</span></p>
 				</div>
+				<!-- /.card-footer -->
 			</div>
+			<!-- /.card -->
 		</main>
+		<!-- /main -->
 
 		<footer>
 			<div class="attribution">
 			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
 			Coded by <a href="https://www.frontendmentor.io/profile/Bahadurshax" target="_blank">Bahadur Arzimbetov</a>.
-		</div>
+			</div>
+			<!-- /.attribution -->
 		</footer>
+		<!-- /footer -->
+		
 	</body>
 </html>
