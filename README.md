@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://your-solution-url.com)
-- Live Site URL: [preview card component](https://your-live-site-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-html5-css3-and-flexbox-TLrMQc1lf)
+- Live Site URL: [preview card component](https://bahadurshax-nft-preview.netlify.app/)
 
 ## My process
 
